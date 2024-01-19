@@ -578,8 +578,34 @@ video {
   margin-right: auto;
 }
 
+.mx-\[20px\] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mx-\[15px\] {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .mt-\[40px\] {
   margin-top: 40px;
+}
+
+.mt-\[20px\] {
+  margin-top: 20px;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mt-\[13px\] {
+  margin-top: 13px;
 }
 
 .grid {
@@ -604,14 +630,6 @@ video {
 
 .max-w-\[1280px\] {
   max-width: 1280px;
-}
-
-.max-w-screen-sm {
-  max-width: 442px;
-}
-
-.max-w-sm {
-  max-width: 24rem;
 }
 
 .-translate-x-1\/2 {
@@ -640,6 +658,10 @@ video {
   gap: 20px;
 }
 
+.gap-\[10px\] {
+  gap: 10px;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -661,9 +683,24 @@ video {
   padding: 1rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .text-lg {
@@ -728,33 +765,60 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .max-sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 442px) {
-  .sm\:max-w-sm {
-    max-width: 24rem;
+  .sm\:mt-\[\] {
+    margin-top: ;
   }
 
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .sm\:mt-\[15\] {
+    margin-top: 15;
   }
 
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .sm\:mt-\[20px\] {
+    margin-top: 20px;
   }
 
-  .sm\:text-\[\] {
-    color: ;
+  .sm\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
+  .sm\:mt-\[30px\] {
+    margin-top: 30px;
+  }
+
+  .sm\:gap-\[\] {
+    gap: ;
+  }
+
+  .sm\:gap-\[15px\] {
+    gap: 15px;
+  }
+
+  .sm\:gap-\[20px\] {
+    gap: 20px;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
-@media not all and (min-width: 442px) {
-  @media (min-width: 442px) {
-    .max-sm\:sm\:text-xl {
-      font-size: 1.25rem;
-      line-height: 1.75rem;
-    }
+@media (min-width: 768px) {
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
